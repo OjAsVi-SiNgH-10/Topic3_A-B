@@ -1,0 +1,23 @@
+.btn{
+    border:none;
+    outline: black;
+    height: 50px;
+    color: burlywood;
+    border-radius: 4px;
+    font-weight: bolder;
+    transition: transform .2s;
+    align-items: center;
+}
+
+a
+{
+    margin-left: 20%;
+}
+
+.btn:hover{
+    border: 3px solid;
+    font-weight: 500;
+    color: black;
+    transform: scale(1.1);
+    background: black;
+}

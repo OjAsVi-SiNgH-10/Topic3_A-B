@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+.logo{
+    color:black;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    font-weight: bold;
+    height: 700px
+}
+
+.menu{
+    width: 400px;
+    float:left;
+    height:750px;
+
+}
+
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(200, 58, 54);
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('bg.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size:2em;
+    color: white;
+}
+
+.form-row{
+    width: 200%;
+   
+
+}
+
+.btn1{
+    width: 200%;
+    height: 40px;
+    border-radius: 40px;
+    background: white;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
